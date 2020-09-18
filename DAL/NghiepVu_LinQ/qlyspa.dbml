@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="SALON_AND_SPA" Class="qlyspaDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=LAPTOP-74GA35JN;Initial Catalog=SALON_AND_SPA;User ID=sa" SettingsObjectName="DAL.Properties.Settings" SettingsPropertyName="SALON_AND_SPAConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.ACCOUNT" Member="ACCOUNTs">
+    <Type Name="ACCOUNT">
+      <Column Name="USERNAME" Type="System.String" DbType="NChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="PASSWORD" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="TYPE" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="HoatDong" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Room" Member="Rooms">
+    <Type Name="Room">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="Status" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="VIP" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Room_BILL1" Member="BILL1s" ThisKey="ID" OtherKey="IdRoom" Type="BILL1" />
+    </Type>
+  </Table>
+  <Table Name="dbo.BILLINFO" Member="BILLINFOs">
+    <Type Name="BILLINFO">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="IDBILL" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="IDPRO_SER" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="COUNT" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="PRO_SER_BILLINFO" Member="PRO_SER" ThisKey="IDPRO_SER" OtherKey="ID" Type="PRO_SER" IsForeignKey="true" />
+      <Association Name="BILL1_BILLINFO" Member="BILL1" ThisKey="IDBILL" OtherKey="ID" Type="BILL1" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CATEGORY" Member="CATEGORies">
+    <Type Name="CATEGORY">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="NAME" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Association Name="CATEGORY_PRO_SER" Member="PRO_SERs" ThisKey="ID" OtherKey="IDCATEGORY" Type="PRO_SER" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Gio_TV" Member="Gio_TVs">
+    <Type Name="Gio_TV">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Gio" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Gio_TV_LICHHEN_NV" Member="LICHHEN_NVs" ThisKey="ID" OtherKey="ID_Gio_TV" Type="LICHHEN_NV" />
+    </Type>
+  </Table>
+  <Table Name="dbo.KHACHHANG" Member="KHACHHANGs">
+    <Type Name="KHACHHANG">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="SDT" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="USERNAME" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="GioiTinh" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="NamSinh" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="CMND" Type="System.String" DbType="Char(12) NOT NULL" CanBeNull="false" />
+      <Column Name="ADDRESS" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="EMAIL" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="HOATDONG" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TICHDIEM" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="KHACHHANG_LICHHEN_NV" Member="LICHHEN_NVs" ThisKey="Id" OtherKey="Id_KH" Type="LICHHEN_NV" />
+      <Association Name="KHACHHANG_BILL1" Member="BILL1s" ThisKey="Id" OtherKey="IdKH" Type="BILL1" />
+    </Type>
+  </Table>
+  <Table Name="dbo.LICHHEN_NV" Member="LICHHEN_NVs">
+    <Type Name="LICHHEN_NV">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ID_Gio_TV" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ID_NV_TV" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Id_KH" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="NOIDUNG" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Column Name="Status" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Ngay" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Association Name="Gio_TV_LICHHEN_NV" Member="Gio_TV" ThisKey="ID_Gio_TV" OtherKey="ID" Type="Gio_TV" IsForeignKey="true" />
+      <Association Name="KHACHHANG_LICHHEN_NV" Member="KHACHHANG" ThisKey="Id_KH" OtherKey="Id" Type="KHACHHANG" IsForeignKey="true" />
+      <Association Name="NV_TuVan_LICHHEN_NV" Member="NV_TuVan" ThisKey="ID_NV_TV" OtherKey="ID" Type="NV_TuVan" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.LOAI_NV" Member="LOAI_NVs">
+    <Type Name="LOAI_NV">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="NAME" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Association Name="LOAI_NV_NV_TuVan" Member="NV_TuVans" ThisKey="ID" OtherKey="ID_LOAINV" Type="NV_TuVan" />
+    </Type>
+  </Table>
+  <Table Name="dbo.NV_TuVan" Member="NV_TuVans">
+    <Type Name="NV_TuVan">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="NAME" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="NamSinh" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="GioiTinh" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="DIACHI" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="CMND" Type="System.String" DbType="NVarChar(15) NOT NULL" CanBeNull="false" />
+      <Column Name="SDT" Type="System.String" DbType="NChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="ID_LOAINV" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="HoatDong_TV" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="NV_TuVan_LICHHEN_NV" Member="LICHHEN_NVs" ThisKey="ID" OtherKey="ID_NV_TV" Type="LICHHEN_NV" />
+      <Association Name="LOAI_NV_NV_TuVan" Member="LOAI_NV" ThisKey="ID_LOAINV" OtherKey="ID" Type="LOAI_NV" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PRO_SER" Member="PRO_SERs">
+    <Type Name="PRO_SER">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="NAME" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="IDCATEGORY" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="SOLUONG" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MOTA" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Column Member="Price" Type="System.Single" CanBeNull="false" />
+      <Association Name="PRO_SER_BILLINFO" Member="BILLINFOs" ThisKey="ID" OtherKey="IDPRO_SER" Type="BILLINFO" />
+      <Association Name="CATEGORY_PRO_SER" Member="CATEGORY" ThisKey="IDCATEGORY" OtherKey="ID" Type="CATEGORY" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.BILL" Member="BILL1s">
+    <Type Name="BILL1">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="IdKH" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="IdRoom" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="TOTALPRICE" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="DATEIN" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Status" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Discount" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="BILL1_BILLINFO" Member="BILLINFOs" ThisKey="ID" OtherKey="IDBILL" Type="BILLINFO" />
+      <Association Name="Room_BILL1" Member="Room" ThisKey="IdRoom" OtherKey="ID" Type="Room" IsForeignKey="true" />
+      <Association Name="KHACHHANG_BILL1" Member="KHACHHANG" ThisKey="IdKH" OtherKey="Id" Type="KHACHHANG" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

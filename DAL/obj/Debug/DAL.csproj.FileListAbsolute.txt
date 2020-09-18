@@ -1,0 +1,16 @@
+D:\PTPMvUDTM\PhanMem_QuanlySpa\DAL\bin\Debug\DAL.dll.config
+D:\PTPMvUDTM\PhanMem_QuanlySpa\DAL\bin\Debug\DAL.dll
+D:\PTPMvUDTM\PhanMem_QuanlySpa\DAL\bin\Debug\DAL.pdb
+D:\PTPMvUDTM\PhanMem_QuanlySpa\DAL\obj\Debug\DAL.dll
+D:\PTPMvUDTM\PhanMem_QuanlySpa\DAL\obj\Debug\DAL.pdb
+C:\Users\HP\Desktop\BAOCAO-HK-2020\CNPM_BaoCaoLanCuoi\PhanMem_QuanlySpa\DAL\bin\Debug\DAL.dll.config
+C:\Users\HP\Desktop\BAOCAO-HK-2020\CNPM_BaoCaoLanCuoi\PhanMem_QuanlySpa\DAL\bin\Debug\DAL.dll
+C:\Users\HP\Desktop\BAOCAO-HK-2020\CNPM_BaoCaoLanCuoi\PhanMem_QuanlySpa\DAL\bin\Debug\DAL.pdb
+C:\Users\HP\Desktop\BAOCAO-HK-2020\CNPM_BaoCaoLanCuoi\PhanMem_QuanlySpa\DAL\obj\Debug\DAL.dll
+C:\Users\HP\Desktop\BAOCAO-HK-2020\CNPM_BaoCaoLanCuoi\PhanMem_QuanlySpa\DAL\obj\Debug\DAL.pdb
+C:\Users\HP\Desktop\BAOCAO-HK-2020\PTPM_BAOCAOT7\PhanMem_QuanlySpa\DAL\bin\Debug\DAL.dll.config
+C:\Users\HP\Desktop\BAOCAO-HK-2020\PTPM_BAOCAOT7\PhanMem_QuanlySpa\DAL\bin\Debug\DAL.dll
+C:\Users\HP\Desktop\BAOCAO-HK-2020\PTPM_BAOCAOT7\PhanMem_QuanlySpa\DAL\bin\Debug\DAL.pdb
+C:\Users\HP\Desktop\BAOCAO-HK-2020\PTPM_BAOCAOT7\PhanMem_QuanlySpa\DAL\obj\Debug\DAL.dll
+C:\Users\HP\Desktop\BAOCAO-HK-2020\PTPM_BAOCAOT7\PhanMem_QuanlySpa\DAL\obj\Debug\DAL.pdb
+C:\Users\HP\Desktop\BAOCAO-HK-2020\PTPM_BAOCAOT7\PhanMem_QuanlySpa\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache

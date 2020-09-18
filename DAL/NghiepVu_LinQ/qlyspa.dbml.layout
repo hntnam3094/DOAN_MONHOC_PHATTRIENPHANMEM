@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 18.75" name="qlyspa">
+  <DataContextMoniker Name="/qlyspaDataContext" />
+  <nestedChildShapes>
+    <classShape Id="51b1e0c1-1a10-497d-882f-17b826ddc9a1" absoluteBounds="3.75, 7.125, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/qlyspaDataContext/ACCOUNT" />
+      <nestedChildShapes>
+        <elementListCompartment Id="83af872b-f576-44d7-bdd5-d647a2c39482" absoluteBounds="3.765, 7.585, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7e734d7a-6624-497a-b027-8957fabc6c86" absoluteBounds="0.75, 14, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/qlyspaDataContext/Room" />
+      <nestedChildShapes>
+        <elementListCompartment Id="451cc8d5-524f-44cb-a14b-bbdf224fd555" absoluteBounds="0.765, 14.46, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="cd2f3115-a3de-4f53-a305-ed40b259cfc1" absoluteBounds="6.25, 4, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/qlyspaDataContext/BILLINFO" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a81af059-efbc-466c-8fd8-af788c8821ae" absoluteBounds="6.265, 4.46, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="112afbe2-1394-421c-99c2-eee9db6a1ec6" absoluteBounds="0.75, 17.25, 2, 1.1939925130208309">
+      <DataClassMoniker Name="/qlyspaDataContext/CATEGORY" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f74aecf1-79f1-445a-8c7c-3b3179fdf9b6" absoluteBounds="0.765, 17.71, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f452552c-13e8-46be-9482-24dfea3f54eb" absoluteBounds="0.75, 0.75, 2, 1.1939925130208335">
+      <DataClassMoniker Name="/qlyspaDataContext/Gio_TV" />
+      <nestedChildShapes>
+        <elementListCompartment Id="72a79476-6834-4e76-8b30-11b0fe0f43c8" absoluteBounds="0.765, 1.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6ef49bc4-c8d5-409a-aef2-acc42f47ba80" absoluteBounds="0.75, 3.5, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/qlyspaDataContext/KHACHHANG" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0bc5ca37-6b96-44e0-8763-b6aab065a1ba" absoluteBounds="0.765, 3.96, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1616b8e7-ebe9-4367-b646-9fe8c4428e01" absoluteBounds="3.5, 0.75, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/qlyspaDataContext/LICHHEN_NV" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c9bb00d9-ae33-4d91-a7c2-8185e968d9c7" absoluteBounds="3.515, 1.21, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="efc4aca8-c5c8-4fe7-a369-fcd89539d3cb" absoluteBounds="1.5, 11.375, 2, 1.1939925130208344">
+      <DataClassMoniker Name="/qlyspaDataContext/LOAI_NV" />
+      <nestedChildShapes>
+        <elementListCompartment Id="eaca0cb0-3627-4968-841c-78adf9255a6c" absoluteBounds="1.5150000000000001, 11.835, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f8986f5a-c042-459c-bb3c-04525d4276b9" absoluteBounds="0.75, 7.75, 2, 2.5401025390625005">
+      <DataClassMoniker Name="/qlyspaDataContext/NV_TuVan" />
+      <nestedChildShapes>
+        <elementListCompartment Id="26e03179-289b-4c62-bf3e-539844cca272" absoluteBounds="0.765, 8.21, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="35f38e7c-f330-481a-9e6c-01769d846f11" absoluteBounds="4.5, 15.875, 2, 1.9631982421875023">
+      <DataClassMoniker Name="/qlyspaDataContext/PRO_SER" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e5841b62-a795-48db-aa3f-a6dc5a21ab08" absoluteBounds="4.5150000000000006, 16.335, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 1.21074891861979); (3.5 : 1.21074891861979)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/qlyspaDataContext/Gio_TV/Gio_TV_LICHHEN_NV" />
+      <nodes>
+        <classShapeMoniker Id="f452552c-13e8-46be-9482-24dfea3f54eb" />
+        <classShapeMoniker Id="1616b8e7-ebe9-4367-b646-9fe8c4428e01" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 3.5); (3.125 : 3.125); (3.125 : 3.28049967447917); (3.5 : 2.90549967447917)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/qlyspaDataContext/KHACHHANG/KHACHHANG_LICHHEN_NV" />
+      <nodes>
+        <classShapeMoniker Id="6ef49bc4-c8d5-409a-aef2-acc42f47ba80" />
+        <classShapeMoniker Id="1616b8e7-ebe9-4367-b646-9fe8c4428e01" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 9.52809895833333); (3.6250025 : 9.52809895833333); (3.6250025 : 2.90549967447917)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/qlyspaDataContext/NV_TuVan/NV_TuVan_LICHHEN_NV" />
+      <nodes>
+        <classShapeMoniker Id="f8986f5a-c042-459c-bb3c-04525d4276b9" />
+        <classShapeMoniker Id="1616b8e7-ebe9-4367-b646-9fe8c4428e01" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.125 : 11.375); (2.125 : 10.2901025390625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/qlyspaDataContext/LOAI_NV/LOAI_NV_NV_TuVan" />
+      <nodes>
+        <classShapeMoniker Id="efc4aca8-c5c8-4fe7-a369-fcd89539d3cb" />
+        <classShapeMoniker Id="f8986f5a-c042-459c-bb3c-04525d4276b9" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(6.5 : 16.8565991210938); (7.3750005 : 16.8565991210938); (7.3750005 : 5.57859537760417)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/qlyspaDataContext/PRO_SER/PRO_SER_BILLINFO" />
+      <nodes>
+        <classShapeMoniker Id="35f38e7c-f330-481a-9e6c-01769d846f11" />
+        <classShapeMoniker Id="cd2f3115-a3de-4f53-a305-ed40b259cfc1" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 17.5440991210938); (4.5 : 17.5440991210938)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/qlyspaDataContext/CATEGORY/CATEGORY_PRO_SER" />
+      <nodes>
+        <classShapeMoniker Id="112afbe2-1394-421c-99c2-eee9db6a1ec6" />
+        <classShapeMoniker Id="35f38e7c-f330-481a-9e6c-01769d846f11" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="7cd7e8c3-c151-44f6-aa71-bba61bc88266" absoluteBounds="3.875, 4.125, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/qlyspaDataContext/BILL1" />
+      <nestedChildShapes>
+        <elementListCompartment Id="cdf36095-bf67-4131-b58b-8c58d39d50d4" absoluteBounds="3.8899999999999997, 4.585, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 14.7892976888021); (5.84375 : 14.7892976888021); (5.84375 : 6.28049967447917)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/qlyspaDataContext/Room/Room_BILL1" />
+      <nodes>
+        <classShapeMoniker Id="7e734d7a-6624-497a-b027-8957fabc6c86" />
+        <classShapeMoniker Id="7cd7e8c3-c151-44f6-aa71-bba61bc88266" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 5.17870198567708); (3.54166916666667 : 5.17870198567708 : JumpStart); (3.70833583333333 : 5.17870198567708 : JumpEnd); (3.875 : 5.17870198567708)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/qlyspaDataContext/KHACHHANG/KHACHHANG_BILL1" />
+      <nodes>
+        <classShapeMoniker Id="6ef49bc4-c8d5-409a-aef2-acc42f47ba80" />
+        <classShapeMoniker Id="7cd7e8c3-c151-44f6-aa71-bba61bc88266" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.875 : 4.85179768880208); (6.25 : 4.85179768880208)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/qlyspaDataContext/BILL1/BILL1_BILLINFO" />
+      <nodes>
+        <classShapeMoniker Id="7cd7e8c3-c151-44f6-aa71-bba61bc88266" />
+        <classShapeMoniker Id="cd2f3115-a3de-4f53-a305-ed40b259cfc1" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

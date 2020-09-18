@@ -1,0 +1,3 @@
+D:\PTPMvUDTM\PhanMem_QuanlySpa\tabControl_vertical\obj\Debug\tabControl_vertical.csprojResolveAssemblyReference.cache
+D:\PTPMvUDTM\PhanMem_QuanlySpa\tabControl_vertical\obj\Debug\Vertical_tabControl.tabContro_vertical.resources
+D:\PTPMvUDTM\PhanMem_QuanlySpa\tabControl_vertical\obj\Debug\tabControl_vertical.csproj.GenerateResource.Cache

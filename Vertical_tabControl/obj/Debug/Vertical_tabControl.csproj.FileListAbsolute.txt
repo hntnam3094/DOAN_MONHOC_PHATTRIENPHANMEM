@@ -1,0 +1,4 @@
+D:\PTPMvUDTM\PhanMem_QuanlySpa\Vertical_tabControl\bin\Debug\Vertical_tabControl.dll
+D:\PTPMvUDTM\PhanMem_QuanlySpa\Vertical_tabControl\bin\Debug\Vertical_tabControl.pdb
+D:\PTPMvUDTM\PhanMem_QuanlySpa\Vertical_tabControl\obj\Debug\Vertical_tabControl.dll
+D:\PTPMvUDTM\PhanMem_QuanlySpa\Vertical_tabControl\obj\Debug\Vertical_tabControl.pdb
